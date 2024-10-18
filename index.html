@@ -24,12 +24,22 @@
 </label>
 
 <ul class="lista-menu">
-  <li class="lista-menu__titulo">Categorias</li>
-  <li class="lista-menu__item"></li>
-  <li class="lista-menu__item"></li>
-  <li class="lista-menu__item"></li>
-  <li class="lista-menu__item"></li>
-  <li class="lista-menu__item"></li>
+   <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
 </ul>
   <span class="cabeçalho__menu-hamburguer container__imagem"></span>
   <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem" />
@@ -40,17 +50,17 @@
         <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
     </div>
 </header>
+
+
+  
     <section class="banner">
   <h2 class="banner__titulo">Já sabe por onde começar?</h2>
   <p class="banner__texto">
     Encontre em nossa estante o que precisa para seu desenvolvimento!
-  </p>
-  <input
-    type="search"
-    class="banner__pesquisa"
-    placeholder="Qual será sua próxima leitura?"
-  />
+  </p><input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?" />
 </section>
+
+  
   <section class="carrossel">
   <h2 class="carrossel__titulo">Novos lançamentos</h2>
 <!-- Slider main container -->
@@ -85,8 +95,13 @@
   </div>
   <div class="swiper-slide">
     <img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade" />
+  </div> 
   </div>
 
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+ </div>
 
     
   <div class="card">
@@ -112,6 +127,7 @@
   </ul>
   <a href="#" class="botões__ancora">Saiba mais</a>
 </div>
+     </div>
 </section>
 
      <!--- SEÇÃO CARROSEL---->
@@ -168,6 +184,8 @@
     </div>
 
   </section>
+
+  
     <!--- SEÇÃO TÓPICOS---->
     
 <section class="tópicos">
@@ -206,7 +224,7 @@
   <input type="email" placeholder="Cadastre seu e-mail" class="contato__email"/>
 </section>
 
-  <hr />
+  <hr/>
 
 <footer class="rodapé">
   <h2 class="rodapé__titulo">Grupo Alura</h2>
